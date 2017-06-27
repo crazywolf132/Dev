@@ -1,4 +1,4 @@
-/* DEV.CSS a form of W3.CSS by Jan Egil and Borge Refsnes */
+/* M8.CSS a form of W3.CSS by Jan Egil and Borge Refsnes, made by Brayden Moon */
 
 html {
     box-sizing: border-box
@@ -210,7 +210,7 @@ h5 {
 h6 {
     font-size: 16px
 }
-.dev-serif {
+.m8-serif {
     font-family: serif
 }
 h1,
@@ -223,7 +223,7 @@ h6 {
     font-weight: 400;
     margin: 10px 0
 }
-.dev-wide {
+.m8-wide {
     letter-spacing: 4px
 }
 hr {
@@ -231,7 +231,7 @@ hr {
     border-top: 1px solid #eee;
     margin: 20px 0
 }
-.dev-image {
+.m8-image {
     max-width: 100%;
     height: auto
 }
@@ -241,54 +241,54 @@ img {
 a {
     color: inherit
 }
-.dev-table,
-.dev-table-all {
+.m8-table,
+.m8-table-all {
     border-collapse: collapse;
     border-spacing: 0;
     width: 100%;
     display: table
 }
-.dev-table-all {
+.m8-table-all {
     border: 1px solid #ccc
 }
-.dev-bordered tr,
-.dev-table-all tr {
+.m8-bordered tr,
+.m8-table-all tr {
     border-bottom: 1px solid #ddd
 }
-.dev-striped tbody tr:nth-child(even) {
+.m8-striped tbody tr:nth-child(even) {
     background-color: #f1f1f1
 }
-.dev-table-all tr:nth-child(odd) {
+.m8-table-all tr:nth-child(odd) {
     background-color: #fff
 }
-.dev-table-all tr:nth-child(even) {
+.m8-table-all tr:nth-child(even) {
     background-color: #f1f1f1
 }
-.dev-hoverable tbody tr:hover,
-.dev-ul.dev-hoverable li:hover {
+.m8-hoverable tbody tr:hover,
+.m8-ul.m8-hoverable li:hover {
     background-color: #ccc
 }
-.dev-centered tr th,
-.dev-centered tr td {
+.m8-centered tr th,
+.m8-centered tr td {
     text-align: center
 }
-.dev-table td,
-.dev-table th,
-.dev-table-all td,
-.dev-table-all th {
+.m8-table td,
+.m8-table th,
+.m8-table-all td,
+.m8-table-all th {
     padding: 8px 8px;
     display: table-cell;
     text-align: left;
     vertical-align: top
 }
-.dev-table th:first-child,
-.dev-table td:first-child,
-.dev-table-all th:first-child,
-.dev-table-all td:first-child {
+.m8-table th:first-child,
+.m8-table td:first-child,
+.m8-table-all th:first-child,
+.m8-table-all td:first-child {
     padding-left: 16px
 }
-.dev-btn,
-.dev-button {
+.m8-btn,
+.m8-button {
     border: none;
     display: inline-block;
     outline: 0;
@@ -302,11 +302,11 @@ a {
     cursor: pointer;
     white-space: nowrap
 }
-.dev-btn:hover {
+.m8-btn:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
 }
-.dev-btn,
-.dev-button {
+.m8-btn,
+.m8-button {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -314,22 +314,22 @@ a {
     -ms-user-select: none;
     user-select: none
 }
-.dev-disabled,
-.dev-btn:disabled,
-.dev-button:disabled {
+.m8-disabled,
+.m8-btn:disabled,
+.m8-button:disabled {
     cursor: not-allowed;
     opacity: 0.3
 }
-.dev-disabled *,
+.m8-disabled *,
 :disabled * {
     pointer-events: none
 }
-.dev-btn.dev-disabled:hover,
-.dev-btn:disabled:hover {
+.m8-btn.m8-disabled:hover,
+.m8-btn:disabled:hover {
     box-shadow: none
 }
-.dev-badge,
-.dev-tag {
+.m8-badge,
+.m8-tag {
     background-color: #000;
     color: #fff;
     display: inline-block;
@@ -337,71 +337,71 @@ a {
     padding-right: 8px;
     text-align: center
 }
-.dev-badge {
+.m8-badge {
     border-radius: 50%
 }
-.dev-ul {
+.m8-ul {
     list-style-type: none;
     padding: 0;
     margin: 0
 }
-.dev-ul li {
+.m8-ul li {
     padding: 8px 16px;
     border-bottom: 1px solid #ddd
 }
-.dev-ul li:last-child {
+.m8-ul li:last-child {
     border-bottom: none
 }
-.dev-tooltip,
-.dev-display-container {
+.m8-tooltip,
+.m8-display-container {
     position: relative
 }
-.dev-tooltip .dev-text {
+.m8-tooltip .m8-text {
     display: none
 }
-.dev-tooltip:hover .dev-text {
+.m8-tooltip:hover .m8-text {
     display: inline-block
 }
-.dev-ripple:active {
+.m8-ripple:active {
     opacity: 0.5
 }
-.dev-ripple {
+.m8-ripple {
     transition: opacity 0s
 }
-.dev-input {
+.m8-input {
     padding: 8px;
     display: block;
     border: none;
     border-bottom: 1px solid #ccc;
     width: 100%
 }
-.dev-select {
+.m8-select {
     padding: 9px 0;
     width: 100%;
     border: none;
     border-bottom: 1px solid #ccc
 }
-.dev-dropdown-click,
-.dev-dropdown-hover {
+.m8-dropdown-click,
+.m8-dropdown-hover {
     position: relative;
     display: inline-block;
     cursor: pointer
 }
-.dev-dropdown-hover:hover .dev-dropdown-content {
+.m8-dropdown-hover:hover .m8-dropdown-content {
     display: block;
     z-index: 1
 }
-.dev-dropdown-hover:first-child,
-.dev-dropdown-click:hover {
+.m8-dropdown-hover:first-child,
+.m8-dropdown-click:hover {
     background-color: #ccc;
     color: #000
 }
-.dev-dropdown-hover:hover > .dev-button:first-child,
-.dev-dropdown-click:hover > .dev-button:first-child {
+.m8-dropdown-hover:hover > .m8-button:first-child,
+.m8-dropdown-click:hover > .m8-button:first-child {
     background-color: #ccc;
     color: #000
 }
-.dev-dropdown-content {
+.m8-dropdown-content {
     cursor: auto;
     color: #000;
     background-color: #fff;
@@ -411,14 +411,14 @@ a {
     margin: 0;
     padding: 0
 }
-.dev-check,
-.dev-radio {
+.m8-check,
+.m8-radio {
     width: 24px;
     height: 24px;
     position: relative;
     top: 6px
 }
-.dev-sidebar {
+.m8-sidebar {
     height: 100%;
     width: 200px;
     background-color: #fff;
@@ -426,25 +426,25 @@ a {
     z-index: 1;
     overflow: auto
 }
-.dev-bar-block .dev-dropdown-hover,
-.dev-bar-block .dev-dropdown-click {
+.m8-bar-block .m8-dropdown-hover,
+.m8-bar-block .m8-dropdown-click {
     width: 100%
 }
-.dev-bar-block .dev-dropdown-hover .dev-dropdown-content,
-.dev-bar-block .dev-dropdown-click .dev-dropdown-content {
+.m8-bar-block .m8-dropdown-hover .m8-dropdown-content,
+.m8-bar-block .m8-dropdown-click .m8-dropdown-content {
     min-width: 100%
 }
-.dev-bar-block .dev-dropdown-hover .dev-button,
-.dev-bar-block .dev-dropdown-click .dev-button {
+.m8-bar-block .m8-dropdown-hover .m8-button,
+.m8-bar-block .m8-dropdown-click .m8-button {
     width: 100%;
     text-align: left;
     padding: 8px 16px
 }
-.dev-main,
+.m8-main,
 #main {
     transition: margin-left .4s
 }
-.dev-modal {
+.m8-modal {
     z-index: 3;
     display: none;
     padding-top: 100px;
@@ -457,7 +457,7 @@ a {
     background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.4)
 }
-.dev-modal-content {
+.m8-modal-content {
     margin: auto;
     background-color: #fff;
     position: relative;
@@ -465,15 +465,15 @@ a {
     outline: 0;
     width: 600px
 }
-.dev-bar {
+.m8-bar {
     width: 100%;
     overflow: hidden
 }
-.dev-center .dev-bar {
+.m8-center .m8-bar {
     display: inline-block;
     width: auto
 }
-.dev-bar .dev-bar-item {
+.m8-bar .m8-bar-item {
     padding: 8px 16px;
     float: left;
     width: auto;
@@ -481,15 +481,15 @@ a {
     outline: none;
     display: block
 }
-.dev-bar .dev-dropdown-hover,
-.dev-bar .dev-dropdown-click {
+.m8-bar .m8-dropdown-hover,
+.m8-bar .m8-dropdown-click {
     position: static;
     float: left
 }
-.dev-bar .dev-button {
+.m8-bar .m8-button {
     white-space: normal
 }
-.dev-bar-block .dev-bar-item {
+.m8-bar-block .m8-bar-item {
     width: 100%;
     display: block;
     padding: 8px 16px;
@@ -499,272 +499,272 @@ a {
     white-space: normal;
     float: none
 }
-.dev-bar-block.dev-center .dev-bar-item {
+.m8-bar-block.m8-center .m8-bar-item {
     text-align: center
 }
-.dev-block {
+.m8-block {
     display: block;
     width: 100%
 }
-.dev-responsive {
+.m8-responsive {
     overflow-x: auto
 }
-.dev-container:after,
-.dev-container:before,
-.dev-panel:after,
-.dev-panel:before,
-.dev-row:after,
-.dev-row:before,
-.dev-row-padding:after,
-.dev-row-padding:before,
-.dev-cell-row:before,
-.dev-cell-row:after,
-.dev-clear:after,
-.dev-clear:before,
-.dev-bar:before,
-.dev-bar:after {
+.m8-container:after,
+.m8-container:before,
+.m8-panel:after,
+.m8-panel:before,
+.m8-row:after,
+.m8-row:before,
+.m8-row-padding:after,
+.m8-row-padding:before,
+.m8-cell-row:before,
+.m8-cell-row:after,
+.m8-clear:after,
+.m8-clear:before,
+.m8-bar:before,
+.m8-bar:after {
     content: "";
     display: table;
     clear: both
 }
-.dev-col,
-.dev-half,
-.dev-third,
-.dev-twothird,
-.dev-threequarter,
-.dev-quarter {
+.m8-col,
+.m8-half,
+.m8-third,
+.m8-twothird,
+.m8-threequarter,
+.m8-quarter {
     float: left;
     width: 100%
 }
-.dev-col.s1 {
+.m8-col.s1 {
     width: 8.33333%
 }
-.dev-col.s2 {
+.m8-col.s2 {
     width: 16.66666%
 }
-.dev-col.s3 {
+.m8-col.s3 {
     width: 24.99999%
 }
-.dev-col.s4 {
+.m8-col.s4 {
     width: 33.33333%
 }
-.dev-col.s5 {
+.m8-col.s5 {
     width: 41.66666%
 }
-.dev-col.s6 {
+.m8-col.s6 {
     width: 49.99999%
 }
-.dev-col.s7 {
+.m8-col.s7 {
     width: 58.33333%
 }
-.dev-col.s8 {
+.m8-col.s8 {
     width: 66.66666%
 }
-.dev-col.s9 {
+.m8-col.s9 {
     width: 74.99999%
 }
-.dev-col.s10 {
+.m8-col.s10 {
     width: 83.33333%
 }
-.dev-col.s11 {
+.m8-col.s11 {
     width: 91.66666%
 }
-.dev-col.s12 {
+.m8-col.s12 {
     width: 99.99999%
 }
 @media (min-width: 601px) {
-    .dev-col.m1 {
+    .m8-col.m1 {
         width: 8.33333%
     }
-    .dev-col.m2 {
+    .m8-col.m2 {
         width: 16.66666%
     }
-    .dev-col.m3,
-    .dev-quarter {
+    .m8-col.m3,
+    .m8-quarter {
         width: 24.99999%
     }
-    .dev-col.m4,
-    .dev-third {
+    .m8-col.m4,
+    .m8-third {
         width: 33.33333%
     }
-    .dev-col.m5 {
+    .m8-col.m5 {
         width: 41.66666%
     }
-    .dev-col.m6,
-    .dev-half {
+    .m8-col.m6,
+    .m8-half {
         width: 49.99999%
     }
-    .dev-col.m7 {
+    .m8-col.m7 {
         width: 58.33333%
     }
-    .dev-col.m8,
-    .dev-twothird {
+    .m8-col.m8,
+    .m8-twothird {
         width: 66.66666%
     }
-    .dev-col.m9,
-    .dev-threequarter {
+    .m8-col.m9,
+    .m8-threequarter {
         width: 74.99999%
     }
-    .dev-col.m10 {
+    .m8-col.m10 {
         width: 83.33333%
     }
-    .dev-col.m11 {
+    .m8-col.m11 {
         width: 91.66666%
     }
-    .dev-col.m12 {
+    .m8-col.m12 {
         width: 99.99999%
     }
 }
 @media (min-width: 993px) {
-    .dev-col.l1 {
+    .m8-col.l1 {
         width: 8.33333%
     }
-    .dev-col.l2 {
+    .m8-col.l2 {
         width: 16.66666%
     }
-    .dev-col.l3 {
+    .m8-col.l3 {
         width: 24.99999%
     }
-    .dev-col.l4 {
+    .m8-col.l4 {
         width: 33.33333%
     }
-    .dev-col.l5 {
+    .m8-col.l5 {
         width: 41.66666%
     }
-    .dev-col.l6 {
+    .m8-col.l6 {
         width: 49.99999%
     }
-    .dev-col.l7 {
+    .m8-col.l7 {
         width: 58.33333%
     }
-    .dev-col.l8 {
+    .m8-col.l8 {
         width: 66.66666%
     }
-    .dev-col.l9 {
+    .m8-col.l9 {
         width: 74.99999%
     }
-    .dev-col.l10 {
+    .m8-col.l10 {
         width: 83.33333%
     }
-    .dev-col.l11 {
+    .m8-col.l11 {
         width: 91.66666%
     }
-    .dev-col.l12 {
+    .m8-col.l12 {
         width: 99.99999%
     }
 }
-.dev-content {
+.m8-content {
     max-width: 980px;
     margin: auto
 }
-.dev-rest {
+.m8-rest {
     overflow: hidden
 }
-.dev-cell-row {
+.m8-cell-row {
     display: table;
     width: 100%
 }
-.dev-cell {
+.m8-cell {
     display: table-cell
 }
-.dev-cell-top {
+.m8-cell-top {
     vertical-align: top
 }
-.dev-cell-middle {
+.m8-cell-middle {
     vertical-align: middle
 }
-.dev-cell-bottom {
+.m8-cell-bottom {
     vertical-align: bottom
 }
-.dev-hide {
+.m8-hide {
     display: none!important
 }
-.dev-show-block,
-.dev-show {
+.m8-show-block,
+.m8-show {
     display: block!important
 }
-.dev-show-inline-block {
+.m8-show-inline-block {
     display: inline-block!important
 }
 @media (max-width: 600px) {
-    .dev-modal-content {
+    .m8-modal-content {
         margin: 0 10px;
         width: auto!important
     }
-    .dev-modal {
+    .m8-modal {
         padding-top: 30px
     }
-    .dev-dropdown-hover.dev-mobile .dev-dropdown-content,
-    .dev-dropdown-click.dev-mobile .dev-dropdown-content {
+    .m8-dropdown-hover.m8-mobile .m8-dropdown-content,
+    .m8-dropdown-click.m8-mobile .m8-dropdown-content {
         position: relative
     }
-    .dev-hide-small {
+    .m8-hide-small {
         display: none!important
     }
-    .dev-mobile {
+    .m8-mobile {
         display: block;
         width: 100%!important
     }
-    .dev-bar-item.dev-mobile,
-    .dev-dropdown-hover.dev-mobile,
-    .dev-dropdown-click.dev-mobile {
+    .m8-bar-item.m8-mobile,
+    .m8-dropdown-hover.m8-mobile,
+    .m8-dropdown-click.m8-mobile {
         text-align: center
     }
-    .dev-dropdown-hover.dev-mobile,
-    .dev-dropdown-hover.dev-mobile .dev-btn,
-    .dev-dropdown-hover.dev-mobile .dev-button,
-    .dev-dropdown-click.dev-mobile,
-    .dev-dropdown-click.dev-mobile .dev-btn,
-    .dev-dropdown-click.dev-mobile .dev-button {
+    .m8-dropdown-hover.m8-mobile,
+    .m8-dropdown-hover.m8-mobile .m8-btn,
+    .m8-dropdown-hover.m8-mobile .m8-button,
+    .m8-dropdown-click.m8-mobile,
+    .m8-dropdown-click.m8-mobile .m8-btn,
+    .m8-dropdown-click.m8-mobile .m8-button {
         width: 100%
     }
 }
 @media (max-width: 768px) {
-    .dev-modal-content {
+    .m8-modal-content {
         width: 500px
     }
-    .dev-modal {
+    .m8-modal {
         padding-top: 50px
     }
 }
 @media (min-width: 993px) {
-    .dev-modal-content {
+    .m8-modal-content {
         width: 900px
     }
-    .dev-hide-large {
+    .m8-hide-large {
         display: none!important
     }
-    .dev-sidebar.dev-collapse {
+    .m8-sidebar.m8-collapse {
         display: block!important
     }
 }
 @media (max-width: 992px) and (min-width: 601px) {
-    .dev-hide-medium {
+    .m8-hide-medium {
         display: none!important
     }
 }
 @media (max-width: 992px) {
-    .dev-sidebar.dev-collapse {
+    .m8-sidebar.m8-collapse {
         display: none
     }
-    .dev-main {
+    .m8-main {
         margin-left: 0!important;
         margin-right: 0!important
     }
 }
-.dev-top,
-.dev-bottom {
+.m8-top,
+.m8-bottom {
     position: fixed;
     width: 100%;
     z-index: 1
 }
-.dev-top {
+.m8-top {
     top: 0
 }
-.dev-bottom {
+.m8-bottom {
     bottom: 0
 }
-.dev-overlay {
+.m8-overlay {
     position: fixed;
     display: none;
     width: 100%;
@@ -776,140 +776,140 @@ a {
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 2
 }
-.dev-display-topleft {
+.m8-display-topleft {
     position: absolute;
     left: 0;
     top: 0
 }
-.dev-display-topright {
+.m8-display-topright {
     position: absolute;
     right: 0;
     top: 0
 }
-.dev-display-bottomleft {
+.m8-display-bottomleft {
     position: absolute;
     left: 0;
     bottom: 0
 }
-.dev-display-bottomright {
+.m8-display-bottomright {
     position: absolute;
     right: 0;
     bottom: 0
 }
-.dev-display-middle {
+.m8-display-middle {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%)
 }
-.dev-display-left {
+.m8-display-left {
     position: absolute;
     top: 50%;
     left: 0%;
     transform: translate(0%, -50%);
     -ms-transform: translate(-0%, -50%)
 }
-.dev-display-right {
+.m8-display-right {
     position: absolute;
     top: 50%;
     right: 0%;
     transform: translate(0%, -50%);
     -ms-transform: translate(0%, -50%)
 }
-.dev-display-topmiddle {
+.m8-display-topmiddle {
     position: absolute;
     left: 50%;
     top: 0;
     transform: translate(-50%, 0%);
     -ms-transform: translate(-50%, 0%)
 }
-.dev-display-bottommiddle {
+.m8-display-bottommiddle {
     position: absolute;
     left: 50%;
     bottom: 0;
     transform: translate(-50%, 0%);
     -ms-transform: translate(-50%, 0%)
 }
-.dev-display-container:hover .dev-display-hover {
+.m8-display-container:hover .m8-display-hover {
     display: block
 }
-.dev-display-container:hover span.dev-display-hover {
+.m8-display-container:hover span.m8-display-hover {
     display: inline-block
 }
-.dev-display-hover {
+.m8-display-hover {
     display: none
 }
-.dev-display-position {
+.m8-display-position {
     position: absolute
 }
-.dev-circle {
+.m8-circle {
     border-radius: 50%
 }
-.dev-round-small {
+.m8-round-small {
     border-radius: 2px
 }
-.dev-round,
-.dev-round-medium {
+.m8-round,
+.m8-round-medium {
     border-radius: 4px
 }
-.dev-round-large {
+.m8-round-large {
     border-radius: 8px
 }
-.dev-round-xlarge {
+.m8-round-xlarge {
     border-radius: 16px
 }
-.dev-round-xxlarge {
+.m8-round-xxlarge {
     border-radius: 32px
 }
-.dev-row-padding,
-.dev-row-padding>.dev-half,
-.dev-row-padding>.dev-third,
-.dev-row-padding>.dev-twothird,
-.dev-row-padding>.dev-threequarter,
-.dev-row-padding>.dev-quarter,
-.dev-row-padding>.dev-col {
+.m8-row-padding,
+.m8-row-padding>.m8-half,
+.m8-row-padding>.m8-third,
+.m8-row-padding>.m8-twothird,
+.m8-row-padding>.m8-threequarter,
+.m8-row-padding>.m8-quarter,
+.m8-row-padding>.m8-col {
     padding: 0 8px
 }
-.dev-container,
-.dev-panel {
+.m8-container,
+.m8-panel {
     padding: 0.01em 16px
 }
-.dev-panel {
+.m8-panel {
     margin-top: 16px;
     margin-bottom: 16px
 }
-.dev-code,
-.dev-codespan {
+.m8-code,
+.m8-codespan {
     font-family: Consolas, "courier new";
     font-size: 16px
 }
-.dev-code {
+.m8-code {
     width: auto;
     background-color: #fff;
     padding: 8px 12px;
     border-left: 4px solid #4CAF50;
     word-wrap: break-word
 }
-.dev-codespan {
+.m8-codespan {
     color: crimson;
     background-color: #f1f1f1;
     padding-left: 4px;
     padding-right: 4px;
     font-size: 110%
 }
-.dev-card,
-.dev-card-2 {
+.m8-card,
+.m8-card-2 {
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
 }
-.dev-card-4,
-.dev-hover-shadow:hover {
+.m8-card-4,
+.m8-hover-shadow:hover {
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19)
 }
-.dev-spin {
-    animation: dev-spin 2s infinite linear
+.m8-spin {
+    animation: m8-spin 2s infinite linear
 }
-@keyframes dev-spin {
+@keyframes m8-spin {
     0% {
         transform: rotate(0deg)
     }
@@ -917,7 +917,7 @@ a {
         transform: rotate(359deg)
     }
 }
-.dev-animate-fading {
+.m8-animate-fading {
     animation: fading 10s infinite
 }
 @keyframes fading {
@@ -931,7 +931,7 @@ a {
         opacity: 0
     }
 }
-.dev-animate-opacity {
+.m8-animate-opacity {
     animation: opac 0.8s
 }
 @keyframes opac {
@@ -942,7 +942,7 @@ a {
         opacity: 1
     }
 }
-.dev-animate-top {
+.m8-animate-top {
     position: relative;
     animation: animatetop 0.4s
 }
@@ -956,7 +956,7 @@ a {
         opacity: 1
     }
 }
-.dev-animate-left {
+.m8-animate-left {
     position: relative;
     animation: animateleft 0.4s
 }
@@ -970,7 +970,7 @@ a {
         opacity: 1
     }
 }
-.dev-animate-right {
+.m8-animate-right {
     position: relative;
     animation: animateright 0.4s
 }
@@ -984,7 +984,7 @@ a {
         opacity: 1
     }
 }
-.dev-animate-bottom {
+.m8-animate-bottom {
     position: relative;
     animation: animatebottom 0.4s
 }
@@ -998,7 +998,7 @@ a {
         opacity: 1
     }
 }
-.dev-animate-zoom {
+.m8-animate-zoom {
     animation: animatezoom 0.6s
 }
 @keyframes animatezoom {
@@ -1009,463 +1009,463 @@ a {
         transform: scale(1)
     }
 }
-.dev-animate-input {
+.m8-animate-input {
     transition: width 0.4s ease-in-out
 }
-.dev-animate-input:focus {
+.m8-animate-input:focus {
     width: 100%!important
 }
-.dev-opacity,
-.dev-hover-opacity:hover {
+.m8-opacity,
+.m8-hover-opacity:hover {
     opacity: 0.60
 }
-.dev-opacity-off,
-.dev-hover-opacity-off:hover {
+.m8-opacity-off,
+.m8-hover-opacity-off:hover {
     opacity: 1
 }
-.dev-opacity-max {
+.m8-opacity-max {
     opacity: 0.25
 }
-.dev-opacity-min {
+.m8-opacity-min {
     opacity: 0.75
 }
-.dev-greyscale-max,
-.dev-grayscale-max,
-.dev-hover-greyscale:hover,
-.dev-hover-grayscale:hover {
+.m8-greyscale-max,
+.m8-grayscale-max,
+.m8-hover-greyscale:hover,
+.m8-hover-grayscale:hover {
     filter: grayscale(100%)
 }
-.dev-greyscale,
-.dev-grayscale {
+.m8-greyscale,
+.m8-grayscale {
     filter: grayscale(75%)
 }
-.dev-greyscale-min,
-.dev-grayscale-min {
+.m8-greyscale-min,
+.m8-grayscale-min {
     filter: grayscale(50%)
 }
-.dev-sepia {
+.m8-sepia {
     filter: sepia(75%)
 }
-.dev-sepia-max,
-.dev-hover-sepia:hover {
+.m8-sepia-max,
+.m8-hover-sepia:hover {
     filter: sepia(100%)
 }
-.dev-sepia-min {
+.m8-sepia-min {
     filter: sepia(50%)
 }
-.dev-tiny {
+.m8-tiny {
     font-size: 10px!important
 }
-.dev-small {
+.m8-small {
     font-size: 12px!important
 }
-.dev-medium {
+.m8-medium {
     font-size: 15px!important
 }
-.dev-large {
+.m8-large {
     font-size: 18px!important
 }
-.dev-xlarge {
+.m8-xlarge {
     font-size: 24px!important
 }
-.dev-xxlarge {
+.m8-xxlarge {
     font-size: 36px!important
 }
-.dev-xxxlarge {
+.m8-xxxlarge {
     font-size: 48px!important
 }
-.dev-jumbo {
+.m8-jumbo {
     font-size: 64px!important
 }
-.dev-left-align {
+.m8-left-align {
     text-align: left!important
 }
-.dev-right-align {
+.m8-right-align {
     text-align: right!important
 }
-.dev-justify {
+.m8-justify {
     text-align: justify!important
 }
-.dev-center {
+.m8-center {
     text-align: center!important
 }
-.dev-border-0 {
+.m8-border-0 {
     border: 0!important
 }
-.dev-border {
+.m8-border {
     border: 1px solid #ccc!important
 }
-.dev-border-top {
+.m8-border-top {
     border-top: 1px solid #ccc!important
 }
-.dev-border-bottom {
+.m8-border-bottom {
     border-bottom: 1px solid #ccc!important
 }
-.dev-border-left {
+.m8-border-left {
     border-left: 1px solid #ccc!important
 }
-.dev-border-right {
+.m8-border-right {
     border-right: 1px solid #ccc!important
 }
-.dev-topbar {
+.m8-topbar {
     border-top: 6px solid #ccc!important
 }
-.dev-bottombar {
+.m8-bottombar {
     border-bottom: 6px solid #ccc!important
 }
-.dev-leftbar {
+.m8-leftbar {
     border-left: 6px solid #ccc!important
 }
-.dev-rightbar {
+.m8-rightbar {
     border-right: 6px solid #ccc!important
 }
-.dev-section,
-.dev-code {
+.m8-section,
+.m8-code {
     margin-top: 16px!important;
     margin-bottom: 16px!important
 }
-.dev-margin {
+.m8-margin {
     margin: 16px!important
 }
-.dev-margin-top {
+.m8-margin-top {
     margin-top: 16px!important
 }
-.dev-margin-bottom {
+.m8-margin-bottom {
     margin-bottom: 16px!important
 }
-.dev-margin-left {
+.m8-margin-left {
     margin-left: 16px!important
 }
-.dev-margin-right {
+.m8-margin-right {
     margin-right: 16px!important
 }
-.dev-padding-small {
+.m8-padding-small {
     padding: 4px 8px!important
 }
-.dev-padding {
+.m8-padding {
     padding: 8px 16px!important
 }
-.dev-padding-large {
+.m8-padding-large {
     padding: 12px 24px!important
 }
-.dev-padding-16 {
+.m8-padding-16 {
     padding-top: 16px!important;
     padding-bottom: 16px!important
 }
-.dev-padding-24 {
+.m8-padding-24 {
     padding-top: 24px!important;
     padding-bottom: 24px!important
 }
-.dev-padding-32 {
+.m8-padding-32 {
     padding-top: 32px!important;
     padding-bottom: 32px!important
 }
-.dev-padding-48 {
+.m8-padding-48 {
     padding-top: 48px!important;
     padding-bottom: 48px!important
 }
-.dev-padding-64 {
+.m8-padding-64 {
     padding-top: 64px!important;
     padding-bottom: 64px!important
 }
-.dev-left {
+.m8-left {
     float: left!important
 }
-.dev-right {
+.m8-right {
     float: right!important
 }
-.dev-button:hover {
+.m8-button:hover {
     color: #000!important;
     background-color: #ccc!important
 }
-.dev-transparent,
-.dev-hover-none:hover {
+.m8-transparent,
+.m8-hover-none:hover {
     background-color: transparent!important
 }
-.dev-hover-none:hover {
+.m8-hover-none:hover {
     box-shadow: none!important
 }
 /* Colors */
 
-.dev-amber,
-.dev-hover-amber:hover {
+.m8-amber,
+.m8-hover-amber:hover {
     color: #000!important;
     background-color: #ffc107!important
 }
-.dev-aqua,
-.dev-hover-aqua:hover {
+.m8-aqua,
+.m8-hover-aqua:hover {
     color: #000!important;
     background-color: #00ffff!important
 }
-.dev-blue,
-.dev-hover-blue:hover {
+.m8-blue,
+.m8-hover-blue:hover {
     color: #fff!important;
     background-color: #2196F3!important
 }
-.dev-light-blue,
-.dev-hover-light-blue:hover {
+.m8-light-blue,
+.m8-hover-light-blue:hover {
     color: #000!important;
     background-color: #87CEEB!important
 }
-.dev-brown,
-.dev-hover-brown:hover {
+.m8-brown,
+.m8-hover-brown:hover {
     color: #fff!important;
     background-color: #795548!important
 }
-.dev-cyan,
-.dev-hover-cyan:hover {
+.m8-cyan,
+.m8-hover-cyan:hover {
     color: #000!important;
     background-color: #00bcd4!important
 }
-.dev-blue-grey,
-.dev-hover-blue-grey:hover,
-.dev-blue-gray,
-.dev-hover-blue-gray:hover {
+.m8-blue-grey,
+.m8-hover-blue-grey:hover,
+.m8-blue-gray,
+.m8-hover-blue-gray:hover {
     color: #fff!important;
     background-color: #607d8b!important
 }
-.dev-green,
-.dev-hover-green:hover {
+.m8-green,
+.m8-hover-green:hover {
     color: #fff!important;
     background-color: #4CAF50!important
 }
-.dev-light-green,
-.dev-hover-light-green:hover {
+.m8-light-green,
+.m8-hover-light-green:hover {
     color: #000!important;
     background-color: #8bc34a!important
 }
-.dev-indigo,
-.dev-hover-indigo:hover {
+.m8-indigo,
+.m8-hover-indigo:hover {
     color: #fff!important;
     background-color: #3f51b5!important
 }
-.dev-khaki,
-.dev-hover-khaki:hover {
+.m8-khaki,
+.m8-hover-khaki:hover {
     color: #000!important;
     background-color: #f0e68c!important
 }
-.dev-lime,
-.dev-hover-lime:hover {
+.m8-lime,
+.m8-hover-lime:hover {
     color: #000!important;
     background-color: #cddc39!important
 }
-.dev-orange,
-.dev-hover-orange:hover {
+.m8-orange,
+.m8-hover-orange:hover {
     color: #000!important;
     background-color: #ff9800!important
 }
-.dev-deep-orange,
-.dev-hover-deep-orange:hover {
+.m8-deep-orange,
+.m8-hover-deep-orange:hover {
     color: #fff!important;
     background-color: #ff5722!important
 }
-.dev-pink,
-.dev-hover-pink:hover {
+.m8-pink,
+.m8-hover-pink:hover {
     color: #fff!important;
     background-color: #e91e63!important
 }
-.dev-purple,
-.dev-hover-purple:hover {
+.m8-purple,
+.m8-hover-purple:hover {
     color: #fff!important;
     background-color: #9c27b0!important
 }
-.dev-deep-purple,
-.dev-hover-deep-purple:hover {
+.m8-deep-purple,
+.m8-hover-deep-purple:hover {
     color: #fff!important;
     background-color: #673ab7!important
 }
-.dev-red,
-.dev-hover-red:hover {
+.m8-red,
+.m8-hover-red:hover {
     color: #fff!important;
     background-color: #f44336!important
 }
-.dev-sand,
-.dev-hover-sand:hover {
+.m8-sand,
+.m8-hover-sand:hover {
     color: #000!important;
     background-color: #fdf5e6!important
 }
-.dev-teal,
-.dev-hover-teal:hover {
+.m8-teal,
+.m8-hover-teal:hover {
     color: #fff!important;
     background-color: #009688!important
 }
-.dev-yellow,
-.dev-hover-yellow:hover {
+.m8-yellow,
+.m8-hover-yellow:hover {
     color: #000!important;
     background-color: #ffeb3b!important
 }
-.dev-white,
-.dev-hover-white:hover {
+.m8-white,
+.m8-hover-white:hover {
     color: #000!important;
     background-color: #fff!important
 }
-.dev-black,
-.dev-hover-black:hover {
+.m8-black,
+.m8-hover-black:hover {
     color: #fff!important;
     background-color: #000!important
 }
-.dev-grey,
-.dev-hover-grey:hover,
-.dev-gray,
-.dev-hover-gray:hover {
+.m8-grey,
+.m8-hover-grey:hover,
+.m8-gray,
+.m8-hover-gray:hover {
     color: #000!important;
     background-color: #bbb!important
 }
-.dev-light-grey,
-.dev-hover-light-grey:hover,
-.dev-light-gray,
-.dev-hover-light-gray:hover {
+.m8-light-grey,
+.m8-hover-light-grey:hover,
+.m8-light-gray,
+.m8-hover-light-gray:hover {
     color: #000!important;
     background-color: #f1f1f1!important
 }
-.dev-dark-grey,
-.dev-hover-dark-grey:hover,
-.dev-dark-gray,
-.dev-hover-dark-gray:hover {
+.m8-dark-grey,
+.m8-hover-dark-grey:hover,
+.m8-dark-gray,
+.m8-hover-dark-gray:hover {
     color: #fff!important;
     background-color: #616161!important
 }
-.dev-pale-red,
-.dev-hover-pale-red:hover {
+.m8-pale-red,
+.m8-hover-pale-red:hover {
     color: #000!important;
     background-color: #ffdddd!important
 }
-.dev-pale-green,
-.dev-hover-pale-green:hover {
+.m8-pale-green,
+.m8-hover-pale-green:hover {
     color: #000!important;
     background-color: #ddffdd!important
 }
-.dev-pale-yellow,
-.dev-hover-pale-yellow:hover {
+.m8-pale-yellow,
+.m8-hover-pale-yellow:hover {
     color: #000!important;
     background-color: #ffffcc!important
 }
-.dev-pale-blue,
-.dev-hover-pale-blue:hover {
+.m8-pale-blue,
+.m8-hover-pale-blue:hover {
     color: #000!important;
     background-color: #ddffff!important
 }
-.dev-text-red,
-.dev-hover-text-red:hover {
+.m8-text-red,
+.m8-hover-text-red:hover {
     color: #f44336!important
 }
-.dev-text-green,
-.dev-hover-text-green:hover {
+.m8-text-green,
+.m8-hover-text-green:hover {
     color: #4CAF50!important
 }
-.dev-text-blue,
-.dev-hover-text-blue:hover {
+.m8-text-blue,
+.m8-hover-text-blue:hover {
     color: #2196F3!important
 }
-.dev-text-yellow,
-.dev-hover-text-yellow:hover {
+.m8-text-yellow,
+.m8-hover-text-yellow:hover {
     color: #ffeb3b!important
 }
-.dev-text-white,
-.dev-hover-text-white:hover {
+.m8-text-white,
+.m8-hover-text-white:hover {
     color: #fff!important
 }
-.dev-text-black,
-.dev-hover-text-black:hover {
+.m8-text-black,
+.m8-hover-text-black:hover {
     color: #000!important
 }
-.dev-text-grey,
-.dev-hover-text-grey:hover,
-.dev-text-gray,
-.dev-hover-text-gray:hover {
+.m8-text-grey,
+.m8-hover-text-grey:hover,
+.m8-text-gray,
+.m8-hover-text-gray:hover {
     color: #757575!important
 }
-.dev-text-amber {
+.m8-text-amber {
     color: #ffc107!important
 }
-.dev-text-aqua {
+.m8-text-aqua {
     color: #00ffff!important
 }
-.dev-text-light-blue {
+.m8-text-light-blue {
     color: #87CEEB!important
 }
-.dev-text-brown {
+.m8-text-brown {
     color: #795548!important
 }
-.dev-text-cyan {
+.m8-text-cyan {
     color: #00bcd4!important
 }
-.dev-text-blue-grey,
-.dev-text-blue-gray {
+.m8-text-blue-grey,
+.m8-text-blue-gray {
     color: #607d8b!important
 }
-.dev-text-light-green {
+.m8-text-light-green {
     color: #8bc34a!important
 }
-.dev-text-indigo {
+.m8-text-indigo {
     color: #3f51b5!important
 }
-.dev-text-khaki {
+.m8-text-khaki {
     color: #b4aa50!important
 }
-.dev-text-lime {
+.m8-text-lime {
     color: #cddc39!important
 }
-.dev-text-orange {
+.m8-text-orange {
     color: #ff9800!important
 }
-.dev-text-deep-orange {
+.m8-text-deep-orange {
     color: #ff5722!important
 }
-.dev-text-pink {
+.m8-text-pink {
     color: #e91e63!important
 }
-.dev-text-purple {
+.m8-text-purple {
     color: #9c27b0!important
 }
-.dev-text-deep-purple {
+.m8-text-deep-purple {
     color: #673ab7!important
 }
-.dev-text-sand {
+.m8-text-sand {
     color: #fdf5e6!important
 }
-.dev-text-teal {
+.m8-text-teal {
     color: #009688!important
 }
-.dev-text-light-grey,
-.dev-hover-text-light-grey:hover,
-.dev-text-light-gray,
-.dev-hover-text-light-gray:hover {
+.m8-text-light-grey,
+.m8-hover-text-light-grey:hover,
+.m8-text-light-gray,
+.m8-hover-text-light-gray:hover {
     color: #f1f1f1!important
 }
-.dev-text-dark-grey,
-.dev-hover-text-dark-grey:hover,
-.dev-text-dark-gray,
-.dev-hover-text-dark-gray:hover {
+.m8-text-dark-grey,
+.m8-hover-text-dark-grey:hover,
+.m8-text-dark-gray,
+.m8-hover-text-dark-gray:hover {
     color: #3a3a3a!important
 }
-.dev-border-red,
-.dev-hover-border-red:hover {
+.m8-border-red,
+.m8-hover-border-red:hover {
     border-color: #f44336!important
 }
-.dev-border-green,
-.dev-hover-border-green:hover {
+.m8-border-green,
+.m8-hover-border-green:hover {
     border-color: #4CAF50!important
 }
-.dev-border-blue,
-.dev-hover-border-blue:hover {
+.m8-border-blue,
+.m8-hover-border-blue:hover {
     border-color: #2196F3!important
 }
-.dev-border-yellow,
-.dev-hover-border-yellow:hover {
+.m8-border-yellow,
+.m8-hover-border-yellow:hover {
     border-color: #ffeb3b!important
 }
-.dev-border-white,
-.dev-hover-border-white:hover {
+.m8-border-white,
+.m8-hover-border-white:hover {
     border-color: #fff!important
 }
-.dev-border-black,
-.dev-hover-border-black:hover {
+.m8-border-black,
+.m8-hover-border-black:hover {
     border-color: #000!important
 }
-.dev-border-grey,
-.dev-hover-border-grey:hover,
-.dev-border-gray,
-.dev-hover-border-gray:hover {
+.m8-border-grey,
+.m8-hover-border-grey:hover,
+.m8-border-gray,
+.m8-hover-border-gray:hover {
     border-color: #bbb!important
 }
